@@ -1,0 +1,28 @@
+# Virtualenv
+venv2.0/
+.venv2.0/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+output_*.mp3
+output_*.wav
+speech_*.wav
+behavior_log.txt
+behavior_logg.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+config_backup.py

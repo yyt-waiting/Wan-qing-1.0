@@ -1,0 +1,38 @@
+# requirements.txt (版本 v8 - Python 3.10+ 终极版)
+
+# --- UI Framework ---
+customtkinter
+Pillow
+
+# --- Core Processing ---
+opencv-python
+numpy
+
+# --- AI & API Libraries ---
+openai
+oss2
+dashscope
+
+# --- FunASR和所有相关依赖的现代稳定版本 ---
+funasr
+modelscope
+transformers
+sentencepiece
+
+# --- FunASR的其他核心依赖 ---
+# 在Python 3.10+环境中，pip可以更好地自动处理torch的版本
+torch
+torchaudio
+
+# --- Audio Handling ---
+PyAudio
+pydub
+
+# --- Visualization ---
+matplotlib
+
+# --- HTTP Client for Proxy Fix ---
+httpx
+
+# --- Optional for Development ---
+keyboard
